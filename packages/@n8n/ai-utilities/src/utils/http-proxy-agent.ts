@@ -1,3 +1,4 @@
+/* eslint-disable n8n-local-rules/no-uncentralized-http -- canonical task-runner proxy helper, intentionally kept outside the factory */
 /**
  * Proxy/transport helpers for the AI model suppliers.
  *

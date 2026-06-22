@@ -21,6 +21,7 @@ import {
 	type AwsSecurityHeaders,
 } from './types';
 import { sign } from 'aws4';
+// eslint-disable-next-line n8n-local-rules/no-uncentralized-http -- proxy URL is resolved via the factory (resolveProxyUrl); the undici fetch dispatcher has no centralized factory yet.
 import { ProxyAgent } from 'undici';
 
 import { getSystemCredentials } from './system-credentials-utils';
